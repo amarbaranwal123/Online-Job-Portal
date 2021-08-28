@@ -1,0 +1,264 @@
+#outer
+{
+height:1015px;
+width:1300px;
+border:1px solid blue;
+margin:0px auto;
+background-image:url(../image/jobs1.jpg);
+}
+
+*
+{
+padding:0px;
+margin:0px;
+}
+#header
+{
+opacity: 0.9;
+filter:(opacity=90):
+}
+
+#header ul
+{
+height:60px;
+line-height:60px;
+background-color:black;
+color:white;
+
+
+}
+#header ul li
+{
+list-style-type:none;
+display:inline-block;
+float:right;
+}
+#header ul a
+{
+color:white;
+text-decoration:none;
+padding:20px;
+
+}
+
+#header ul li a:hover
+{
+background:#8FB0BF;
+transition:all 0.40s;
+}
+#header ul li #btn a
+{
+text-decoration:none;
+
+}
+#header h1
+{
+float:left;
+width:300px;
+cursor:pointer;
+margin-left:30px;
+}
+#header ul li #btn
+{
+height:35px;
+width:35px;
+margin-left:750px;
+margin-top:15px;
+border:1px auto;
+}
+#footer ul li #btn
+{
+height:35px;
+width:35px;
+margin-left:750px;
+margin-top:15px;
+border:1px auto;
+}
+.image-circle
+{
+border-radius: 50%;
+cursor:pointer;
+}
+
+#left
+{
+height:860px;
+width:200px;
+background-color:black;
+border:1px auto;
+float:left;
+margin-top:0px;
+opacity: 0.9;
+filter:(opacity=90):
+}
+#t1
+{
+height:250px;
+width:160px;
+margin-left:10px;
+border:1px solid;
+margin-top:50px;
+}
+#t2
+{
+height:150px;
+width:150px;
+margin-left:5px;
+border:1px solid white;;
+margin-top:180px;
+}
+#right
+{
+height:840px;
+width:1000px;
+float:right;
+margin-top:10px;
+background-color:#003535;
+border:1px solid;
+opacity: 0.7;
+filter:(opacity=70):
+
+
+}
+#row1
+{
+height:200px;
+width:900px;
+border:1px solid #003535;
+margin-top:70px;
+margin-left:50px;
+
+}
+#row2
+{
+height:200px;
+width:900px;
+border:1px solid #003535;
+margin-top:220px;
+margin-left:0px;
+
+
+}
+#row3
+{
+height:200px;
+width:900px;
+border:1px solid #003535;
+margin-top:20px;
+margin-left:0px;
+
+
+
+}
+.col1
+{
+
+height:150px;
+width:150px;
+border:1px auto;
+margin-top:20px;
+margin-left:90px;
+float:left;
+
+transition:margin-left 800ms;
+color:white;
+}
+
+.up:hover{
+ opacity:0.8;
+ }
+
+
+.col2
+{
+height:150px;
+width:150px;
+border:1px solid;
+margin-top:20px;
+margin-left:90px;
+float:left;
+}
+.col3
+{
+height:150px;
+width:150px;
+border:1px solid;
+margin-top:20px;
+margin-left:90px;
+float:left;
+}
+
+
+#footer
+{
+height:50px;
+width:1300px;
+border:1px auto;
+margin-top:860px;
+}
+#footer
+{
+opacity: 0.9;
+filter:(opacity=90):
+}
+
+#footer ul
+{
+height:60px;
+line-height:60px;
+background-color:black;
+color:white;
+
+
+}
+#footer ul li
+{
+list-style-type:none;
+display:inline-block;
+float:right;
+}
+#footer ul a
+{
+color:white;
+text-decoration:none;
+padding:20px;
+
+}
+#copy a
+{
+text-decoration:none;
+color:white;
+}
+
+#footer ul li:hover
+{
+background:#8FB0BF;
+transition:all 0.40s;
+}
+#footer h1
+{
+float:left;
+width:300px;
+cursor:pointer;
+margin-left:30px;
+}
+#copy
+{
+height:30px;
+width:1300px;
+border:1px auto;
+color:black;
+background-color:black;
+text-align:center;
+margin-top:15px;
+opacity: 0.9;
+filter:(opacity=90):
+}
+.up
+{
+border:5px solid black;
+/*overflow:hidden;*/
+box-shadow:rgba(0,0,0,0.5) 10px 10px 20px;
+border-radius:50%;
+}
+

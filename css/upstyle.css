@@ -1,0 +1,160 @@
+#outer
+{
+height:1300px;
+width:1300px;
+border:1px solid;
+background-image:url(../image/ct.jpg);
+background-repeat:no-repeat;
+position:absolute;
+}
+*
+{
+padding:0px;
+margin:0px;
+}
+#header
+{
+opacity: 0.9;
+filter:(opacity=70):
+}
+
+#header ul
+{
+height:60px;
+line-height:60px;
+background-color:#003535;
+color:white;
+text-shadow:10px 10px 20px;
+
+
+}
+#header ul li
+{
+list-style-type:none;
+display:inline-block;
+float:right;
+text-shadow:10px 10px 20px;
+}
+#header ul a
+{
+color:white;
+text-decoration:none;
+padding:20px;
+
+}
+
+#header ul li:hover
+{
+background:#8FB0BF;
+transition:all 0.40s;
+}
+#header h1
+{
+float:left;
+width:300px;
+cursor:pointer;
+margin-left:30px;
+}
+#mid
+{
+height:167;
+width:303px;
+border:1px solid;
+background-image:url(../image/images.jpg);
+margin-left:500px;
+margin-top:20px;
+box-shadow: 10px 10px 20px;
+}
+#mid1
+{
+height:800px;
+width:500px;
+margin-left:400px;
+background-color:white;
+opacity:0.7;
+filter:(opacity=70);
+box-shadow:15px 10px 10px;
+}
+.button
+{
+width:400px;
+background-color:#003737;
+color:white;
+padding:15px 30px;
+
+font-size:20px;
+cursor:pointer
+}
+.button:hover{
+
+background-color:#8FB0BF;
+color:black;
+transition-duration:0.4s;
+
+}
+
+
+#footer
+{
+height:50px;
+width:1300px;
+border:1px auto;
+margin-top:47px;
+text-shadow:10px 10px 20px;
+}
+#footer
+{
+opacity: 0.7;
+filter:(opacity=70):
+}
+
+#footer ul
+{
+height:60px;
+line-height:60px;
+background-color:#003535;
+color:white;
+text-shadow:10px 10px 20px;
+
+
+}
+#footer ul li
+{
+list-style-type:none;
+display:inline-block;
+float:right;
+text-shadow:10px 10px 20px;
+}
+#footer ul a
+{
+color:white;
+text-decoration:none;
+padding:20px;
+
+}
+
+#footer ul li:hover
+{
+background:#8FB0BF;
+transition:all 0.40s;
+}
+#footer h1
+{
+float:left;
+width:300px;
+cursor:pointer;
+margin-left:30px;
+}
+#copy
+{
+height:30px;
+width:1300px;
+border:1px auto;
+color:black;
+background-color:#003535;
+text-align:center;
+margin-top:15px;
+opacity: 0.7;
+filter:(opacity=70):
+
+}

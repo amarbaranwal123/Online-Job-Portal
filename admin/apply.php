@@ -1,0 +1,107 @@
+<?php
+
+include ("../connection.php");
+?>
+
+<html>
+
+
+<link rel="stylesheet" type="text/css" href="css/us6.css">
+<link rel="stylesheet" href="css1/font-awesome.min.css">
+<head>
+</head>
+<body>
+    <div id="outer">
+	    <div id="header">
+		    <div class="logo"><a href="#">job @ <span>mail</span></a>
+			</div>
+			
+			
+			
+			<div id="left">			
+			
+</div>
+
+
+		</div>
+		
+		<a class="mobile" href="#">MENU</a>
+		
+		      <div class="sidebar">
+			  
+			  
+			  
+			  
+			  
+			  <div id="icon"><img src="image/adi.jpg"/>
+			  
+			  
+			  
+			 
+			  
+			  
+			  </div>
+		
+			  
+			  
+			  
+			  
+			    <ul id="nav">
+				     <li><a class="selected" href="profile1.php"><i class="fa fa-tachometer fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;DASHBOARD</a></li>
+					 <li><a href="user.php"><i class="fa fa-users" aria-hidden="true">&nbsp;</i>view USER</a></li>
+					 <li><a href="seeker.php"><i class="fa fa-user-circle" aria-hidden="true">&nbsp;</i>VIEW EMPLOYER</a></li>
+					 <li><a href="delete.php"><i class="fa fa-trash-o" aria-hidden="true">&nbsp;</i>DELETE EMPLOYER</a></li>
+					 <li><a href="delete1.php"><i class="fa fa-envelope" aria-hidden="true">&nbsp;</i>DELETE JOBSEEKER</a></li>
+					 <li><a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;LOG OUT</a></li>
+					 <li><a href="change.php"><i class="fa fa-key" aria-hidden="true">&nbsp;</i>CHANGE PASSWORD</a></li>
+					 <li><a href="upjob.php"><i class="fa fa-users" aria-hidden="true">&nbsp;</i>VIEW UPLOADED JOB</a></li>
+					 <li><a href="apply.php"><i class="fa fa-users" aria-hidden="true">&nbsp;</i>VIEW APPLY JOB</a></li>
+					 
+				</ul>
+			  </div>
+			  <div id="tbl">
+			      <div id="tbl1">
+				  
+				     <table border="1px">
+					            <tr><td colspan="12" style="padding:10px;"><h1>DISPLAYING ALL JOB SEEKER</h1></td></tr>
+								
+								
+								<tr>
+								<th>EMP ID</th>
+								<th>SEEKER ID</th>
+								<th>DATE</th>
+								<th>STATUS</th>
+								<th>DELETE</th>
+								
+								</tr>
+								
+								<?php
+								$query="select * from apply";
+								//echo $query;
+								$result=mysql_query($query);
+								$a=1;
+							while($row=mysql_fetch_array($result,MYSQL_BOTH))
+							{
+								?>
+									
+									<td><?php echo $row['emp_id'] ?></td>
+									<td><?php echo $row['seeker_id'] ?></td>
+									
+									<td><?php echo $row['date'] ?></td>
+									<td><?php echo $row['status'] ?></td>
+									
+									
+									<td><a href="del2.php?id=<?php echo $row['id']; ?>">delete</a></td>
+									
+									</tr>
+									<?php
+									$a++;
+							}
+							?>
+					 </table>
+				  
+				  </div>
+			  </div>
+</div>
+</body>
+</html>
